@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "composite": true,
+      "rootDir": "src",
+      "target": "es2019",
+      "declaration": true,
+      "sourceMap": true,
+      "outDir": "dist",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitReturns": true,
+      "noImplicitAny": true,
+      "noUnusedLocals": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": false,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "lib": ["dom", "es2020"]
+    },
+    "references": [
+      { "path": "../my-lib-b" }
+    ],
+    "exclude": ["node_modules"],
+    "include": ["./src"]
+  }

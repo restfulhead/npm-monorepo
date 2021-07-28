@@ -1,0 +1,9 @@
+{
+  "name": "@restfulhead/npm-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "./server-packages/*",
+    "./server-apps/*"
+  ]
+}
